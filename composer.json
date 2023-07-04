@@ -1,0 +1,26 @@
+{
+    "name": "d4rk0s/vultr",
+    "autoload": {
+        "psr-4": {
+            "D4rk0s\\Vultr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grégory COLLIN",
+            "email": "gregory@d4rk0s.net"
+        }
+    ],
+    "require": {
+        "symfony/console": "^6.3",
+        "vultr/vultr-php": "^1.0",
+        "vlucas/phpdotenv": "^5.5",
+        "guzzlehttp/psr7": "^2.5",
+        "guzzlehttp/guzzle": "^7.7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
