@@ -40,3 +40,8 @@ It uses the **INSTANCE_LABEL** to identify the current instance and obtain a sna
 
 To create an instance : ```php src/Application.php CreateInstance``` \
 To create a snapshot and destroy server instance : ```php src/Application.php DestroyServer```
+
+IF you have docker installed you can use these commands :
+
+To create an instance : ```composer instance_up``` \
+To create a snapshot and destroy server instance : ```composer instance_down```

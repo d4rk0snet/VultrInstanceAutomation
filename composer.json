@@ -11,6 +11,10 @@
             "email": "gregory@d4rk0s.net"
         }
     ],
+    "scripts":{
+        "instance_up" : "docker run --rm -v .:/app php:8.1.20-cli php /app/src/Application.php createInstance",
+        "instance_down" : "docker run --rm -v .:/app php:8.1.20-cli php /app/src/Application.php destroyServer"
+    },
     "require": {
         "symfony/console": "^6.3",
         "vultr/vultr-php": "^1.0",
